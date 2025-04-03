@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mayong-payong</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .parallax {
+            background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b4/cc/63/caption.jpg?w=500&h=-1&s=1') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+        .parallax::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .title-box {
+            position: relative;
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: Georgia;
+            border: 3px solid white;
+            padding: 20px 40px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .content {
+            max-width: 1000px;
+            margin: 40px auto;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .content img {
+        width: 45%;
+        }
+        .text {
+            width: 60%;
+        }
+         .location {
+            background: #a7c7e7;
+            padding: 20px;
+            text-align: left;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 400px;
+            height:300px;
+        }
+        .gallery-column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax">
+        <div class="title-box">Mayong-payong</div>
+        </div>
+     <div class="content">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/b4/cc/69/caption.jpg?w=900&h=500&s=1" alt="Mayong Payong">
+        <div class="text">
+        <p><span style="color: green">Mayong Payong</span>, also known as <span style="font-weight: bold; font-style: italic;">Mount Mayong Payong</span> or Umbrella Hills, is a scenic mountain peak located in Mobo, Masbate, Philippines. This emerging tourist destination offers panoramic views of Masbate City, Ticao Island, and the surrounding landscapes, making it a popular spot for nature enthusiasts and photographers.</p>
+        </div>
+    </div>
+        <div class="location">
+        <h2 style="color: green; font-family:	Times New Roman; font-size: 40px; margin-left: 40px; margin-right: 40px;">Location</h2><br>
+        <p style="margin-left: 40px; margin-right: 40px;"><span style="font-style: italic; font-weight: bold;">Mayong Payong</span> is located in <span style="color:green; font-weight: bold;">Barangay Usab, Mobo, Masbate,</span> <span style="font-weight: bold;">Philippines</span>. It is a well-known highland destination offering breathtaking panoramic views of Masbate City, the surrounding islands, and the lush landscapes of the province.</p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-column">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzWNP9wz8hkEyeBsAo5_O7rKXdOgnQtZPUZA&s" alt="Scenic View">
+        <img src="https://i.redd.it/0qud7nh1ueq51.jpg" alt="Observation Tower">
+        </div>
+        <img src="https://i.pinimg.com/736x/b8/c3/3b/b8c33b958d34de9f71b31b28b291607e.jpg" alt="Aerial View">
+    </div>
+</body>
+</html>

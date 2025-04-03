@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins';
+	text-align: center;
+}
+
+.banner{
+	position: absolute;
+	background-attachment: fixed;
+	position: absolute;
+	background-position: bottom;
+}
+
+.banner::before{
+	content: "";
+	background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/04/06/75/4c/bagasbas-beach-sunrise.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 400px;
+	width: 100%;
+	object-fit: fill;
+	background-color: white;
+	opacity: .5;
+	z-index: -1;
+	background-position: bottom;
+}
+
+.text{
+	font-size: 60px;
+	color: black;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-top: 170px;
+	margin-left: 710px;
+	position: absolute;
+}
+
+.div1 {
+	width: 865px;
+	height: 195px;
+	border: 5px solid black;
+	margin-top: 110px;
+	margin-right: 100px;
+	margin-left: 500px;
+}
+
+.content-image{
+	padding: 5px;
+	background-image: url(https://www.eazytraveler.net/wp-content/uploads/2013/12/11249309886_6390b48fe1_z-300x210.jpg);
+	background-size: cover;
+	height: 270px;
+	width: 360px;
+	position: absolute;
+	background-color: white;
+	top: 450px;
+	margin-left: 100px;
+	object-fit: fill;
+}
+
+.content-image1{
+	padding: 5px;
+	background-image: url(https://images.summitmedia-digital.com/spotph/images/2018/12/26/bagasbas-daet-3-1545795080.jpg);
+	background-size: cover;
+	height: 270px;
+	width: 360px;
+	position: absolute;
+	background-color: white;
+	top: 755px;
+	margin-left: 100px;
+	object-fit: fill;
+}
+
+.content-image2{
+	padding: 5px;
+	background-image: url(https://live.staticflickr.com/8768/17075635415_b29338064a_k.jpg);
+	background-size: cover;
+	height: 575px;
+	width: 900px;
+	position: absolute;
+	background-color: white;
+	top: 450px;
+	margin-left: 500px;
+	object-fit: fill;
+}
+
+.text-content{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 26px;
+	text-align: left;
+	position: absolute;
+	top: 1100px;
+	margin-left: 100px;
+	margin-right: 270px;
+	height: 270px;
+	width: 1300px;
+	object-fit: fill;
+}
+
+.div2 {
+	width: 100%;
+	height: 210px;
+	border: 0px solid black;
+	background-color: #6BB1C5;
+	margin-top: 1300px;
+	position: absolute;
+}
+
+.text-title{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 36px;
+	color: green;
+	text-align: left;
+	position: absolute;
+	top: 1340px;
+	margin-left: 100px;
+	margin-right: 270px;
+}
+
+.text-content1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 12px;
+	text-align: left;
+	position: absolute;
+	top: 1440px;
+	margin-left: 100px;
+	margin-right: 270px;
+	height: 270px;
+	width: 1300px;
+	object-fit: fill;
+}
+
+.content-image3{
+	padding: 5px;
+	background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/17/69/f6/c0/longest-boulevard-in.jpg);
+	background-size: cover;
+	height: 270px;
+	width: 360px;
+	position: absolute;
+	background-color: white;
+	top: 1540px;
+	margin-left: 100px;
+	object-fit: fill;
+}
+
+.content-image4{
+	padding: 5px;
+	background-image: url(https://scontent.fwnp1-1.fna.fbcdn.net/v/t1.6435-9/61382893_1556145851186582_2096765500188000256_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0b6b33&_nc_eui2=AeFMH2TGNGL5HFpJYjHjx0-wrm-vUol99huub69SiX32GzIcvV4nJS0TCka9RV5ybTiomZqiRNSld1iwO-sclPgn&_nc_ohc=sq0orVOLZkIQ7kNvgEOJhEa&_nc_oc=Adk1ma83bZ2uscssBv-6xjMhuK8mrRGLbDOOOoPJXNUpp3UDlb4Zb5qSmUSUzOo5s9Y&_nc_zt=23&_nc_ht=scontent.fwnp1-1.fna&_nc_gid=ifGJ0sbSNCuBqil9SniAAQ&oh=00_AYFDpN0vraYf39if-M6hysdaFrBzJhi2cK_lWpXywqmPgg&oe=681314E6);
+	background-size: cover;
+	height: 270px;
+	width: 360px;
+	position: absolute;
+	background-color: white;
+	top: 1540px;
+	margin-left: 500px;
+	object-fit: fill;
+}
+
+.content-image5{
+	padding: 5px;
+	background-image: url(https://www.wheninmanila.com/wp-content/uploads/2019/04/camnorth-4.jpg);
+	background-size: cover;
+	height: 270px;
+	width: 360px;
+	position: absolute;
+	background-color: white;
+	top: 1540px;
+	margin-left: 900px;
+	object-fit: fill;
+}
+
+.text-content2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 26px;
+	text-align: left;
+	position: absolute;
+	top: 1880px;
+	margin-right: 270px;
+	margin-left: 100px;
+	height: 270px;
+	width: 1300px;
+	object-fit: fill;
+}
